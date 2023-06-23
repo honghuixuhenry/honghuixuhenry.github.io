@@ -6,17 +6,17 @@ main:
   - title: "Teaching"
     url: /teaching/  
 
-  - title: "Service"
-    url: /service/ 
-
   - title: "Talks"
     url: /talks/ 
 
-  - title: "Accomplishment"
+  - title: "Service"
     url: /service/ 
+
+  - title: "Accomplishment"
+    url: /accomplishment/ 
   
   - title: "News"
-    url: /year-archive/ 
+    url: /news/
 
   # - title: "Portfolio"
   #   url: /portfolio/
