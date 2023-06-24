@@ -193,16 +193,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -228,21 +228,48 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # # _portfolio
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
   - scope:
       path: ""
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+
+  # _service
+  - scope:
+      path: ""
+      type: service
+    values:
+      layout: service
+      author_profile: true
+      share: true
+
+  # _accomplishment
+  - scope:
+      path: ""
+      type: accomplishment
+    values:
+      layout: accomplishment
+      author_profile: true
+      share: true
+  
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
       author_profile: true
       share: true
 
