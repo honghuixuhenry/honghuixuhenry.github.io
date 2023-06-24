@@ -5,12 +5,13 @@ type: "Academic Services"
 permalink: /service/Journal_Service
 ---
 
--- Reviewer of IEEE Transaction on Vehicle Technology
--- Reviewer of IEEE Transaction on Wireless Communication
--- Reviewer of IEEE Transaction on Industrial Informatics
--- Reviewer of IEEE Internet of Things Journal
--- Reviewer of IEEE Transaction on Social Systems
--- Reviewer of IEEE Networking Letters
--- Reviewer of Neurocomputing
--- Reviewer of Computer Communications
--- Reviewer of High-Confidence Computing
+- IEEE Transaction on Industrial Informatics (TII) (Impact Factor: 10.215)
+- IEEE Transaction on Vehicle Technology (TVT) (Impact Factor: 5.978)
+- IEEE Transaction on Computational Social Systems (TCSS) (Impact Factor: 5.14)
+- IEEE Internet of Things Journal (IoTJ) (Impact Factor: 9.936)
+- IEEE Transactions on Wireless Communication (TWC) (Impact Factor: 7.016)
+- International Journal of Computer Vision (Impact Factor: 7.41)
+- Neurocomputing (Impact Factor: 5.719)
+- Scientific Reports (Impact Factor: 4.996)
+- Computational Intelligence and Neuroscience (Impact Factor: 3.633)
+- Computer Communications (ComCom) (Impact Factor: 3.167)
