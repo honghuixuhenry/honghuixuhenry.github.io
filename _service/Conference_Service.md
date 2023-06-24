@@ -1,7 +1,6 @@
 ---
 title: "Conference Review"
 collection: service
-type: "Academic Services"
 permalink: /service/Conference_Service
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Honors and Fellowships"
+title: "Fellowship"
 collection: accomplishment
 permalink: /accomplishment/Award2
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Journal Review"
 collection: service
-type: "Academic Services"
 permalink: /service/Journal_Service
 ---
 
