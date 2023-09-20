@@ -1,8 +1,8 @@
----
+<!-- ---
 # title: "Conference Publications"
 # collection: publications
 permalink: /publication/Conference_Publications
----
+--- -->
 
 - **[ICDM]** **H. Xu**, Z. Cai, Z. Xiong and W. Li, Backdoor Attack on 3D Grey Image Segmentation. _IEEE International Conference on Data Mining (ICDM)_, 2023. (**Acceptance Ratio: 9.37\%**) [Download paper here](http://honghuixuhenry.github.io/files/ICDM.pdf)
 

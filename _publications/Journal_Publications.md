@@ -1,8 +1,8 @@
----
+<!-- ---
 # title: "Journal Publications"
 # collection: publications
-permalink: /publication/Journal_Publications
----
+# permalink: /publication/Journal_Publications
+--- -->
 
 - **[TST]** B. Xie, **H. Xu**, Y. Joe, D. Seo, and Z. Cai, Lightweight Super-Resolution Model for Complete Model Copyright Protection. _Tsinghua Science and Technology (TST)_, 2023. (Accepted) (**IF: 3.515**) [Download paper here](http://honghuixuhenry.github.io/files/TST.pdf)
 
