@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -13,9 +13,9 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 {% for post in site.publications reversed %}
 {% include archive-single.html %}
-{% endfor %} -->
+{% endfor %}
 
----
+<!-- ---
 
 layout: archive
 title: "Publications"
@@ -27,4 +27,4 @@ author_profile: true
 {% include base_path %}
 {% for post in site.publications reversed %}
 {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
