@@ -13,3 +13,9 @@ collection: publications
 - **[TII]** De S, Bermudez-Edo M, Xu H, et al. Deep generative models in the industrial internet of things: a survey[J]. IEEE Transactions on Industrial Informatics, 2022, 18(9): 5728-5737. [Download paper here](http://honghuixuhenry.github.io/files/TII.pdf)
 
 - **[TVT]** Xiong Z, Xu H, Li W, et al. Multi-source adversarial sample attack on autonomous vehicles[J]. IEEE Transactions on Vehicular Technology, 2021, 70(3): 2822-2835. [Download paper here](http://honghuixuhenry.github.io/files/TVT.pdf)
+
+- **[IoTJ]** Xu H, Cai Z, Takabi D, et al. Audio-visual autoencoding for privacy-preserving video streaming[J]. IEEE Internet of Things Journal, 2021, 9(3): 1749-1761. [Download paper here](http://honghuixuhenry.github.io/files/IoTJ.pdf)
+
+- **[CSUR]** Cai Z, Xiong Z, Xu H, et al. Generative adversarial networks: A survey toward private and secure applications[J]. ACM Computing Surveys (CSUR), 2021, 54(6): 1-38. [Download paper here](http://honghuixuhenry.github.io/files/CSUR.pdf)
+
+- **[Neurocomputing]** Kang Z, Xu H, Wang B, et al. Clustering with similarity preserving[J]. Neurocomputing, 2019, 365: 211-218. [Download paper here](http://honghuixuhenry.github.io/files/Neuro.pdf)
