@@ -1,5 +1,5 @@
 ---
-title: "Conference Publications"
+# title: "Conference Publications"
 # collection: publications
 permalink: /publication/Conference_Publications
 ---

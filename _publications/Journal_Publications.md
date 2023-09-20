@@ -1,5 +1,5 @@
 ---
-title: "Journal Publications"
+# title: "Journal Publications"
 # collection: publications
 permalink: /publication/Journal_Publications
 ---
