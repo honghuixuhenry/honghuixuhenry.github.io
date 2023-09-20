@@ -9,7 +9,7 @@ date: 2017-12-08
 # citation: "Xu H, Deng Y. Dependent evidence combination based on shearman coefficient and pearson coefficient[J]. Ieee Access, 2017, 6: 11634-11640."
 ---
 
-**[IEEE Access]** **H. Xu** and Y. Deng, Dependent Evidence Combination based on Shearman Coefficient and Pearson Coefficient. _IEEE ACCESS_, 2018, 6: 11634-11640.(**IF: 3.476**) [Download paper here](http://honghuixuhenry.github.io/files/Access.pdf)
+**[IEEE Access]** **H. Xu** and Y. Deng, Dependent Evidence Combination based on Shearman Coefficient and Pearson Coefficient. _IEEE ACCESS [J]_, 2018, 6: 11634-11640.(**IF: 3.476**) [Download paper here](http://honghuixuhenry.github.io/files/Access.pdf)
 
 Dempster–Shafer evidence theory is efficient to deal with uncertain information. One assumption of evidence theory is that the source of information should be independent when combined by Dempster’s rule for evidence combination. However, the assumption does not coincide with the reality. A lot of works are done to solve the problem about the independence. The existing method based on the statistical parameter Pearson correlation coefficient discount is one of the feasible methods. However, the Pearson correlation coefficient is only used to characterize the linear correlation between the attributes of the normal distribution. In this paper, a new method is proposed, the Pearson correlation coefficient and Shearman correlation coefficient to generate the discounting factor. Taking the parametric statistic and nonparametric statistic into consideration, the proposed method is more efficient. The experiments on wine data set are illustrated to show the efficiency of our proposed method.
 
