@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Conference_Publications
 ---
 
-- **[ICDM]** **H. Xu**, Z. Cai, Z. Xiong and W. Li, Backdoor Attack on 3D Grey Image Segmentation. _IEEE International Conference on Data Mining (ICDM)_, 2023. (Acceptance Ratio: 9.37\%) [Download paper here](http://honghuixuhenry.github.io/files/ICDM.pdf)
+- **[ICDM]** **H. Xu**, Z. Cai, Z. Xiong and W. Li, Backdoor Attack on 3D Grey Image Segmentation. _IEEE International Conference on Data Mining (ICDM)_, 2023. (**Acceptance Ratio: 9.37\%**) [Download paper here](http://honghuixuhenry.github.io/files/ICDM.pdf)
 
 - **[COCOA]** **H. Xu**, Z. Cai and W. Li, Which Option Is a Better Way to Improve Transfer Learning Performance?. _International Conference on Combinatorial Optimization and Applications (COCOA)_, Springer, Cham, 2021: 61-74. [Download paper here](http://honghuixuhenry.github.io/files/COCOA.pdf)
 
