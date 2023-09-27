@@ -1,5 +1,5 @@
 ---
-title: "Program Committee"
+title: "Program Committee Member"
 collection: service
 permalink: /service/PC_Service
 ---
