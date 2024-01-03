@@ -13,6 +13,5 @@ He received a Ph.D. degree in computer science from Georgia State University, At
 His research focuses on data privacy and security in AI, deep learning, and Internet of Things.
 He served as the Program Committees for AAAI, SDM, and ICMC, and was a recipient of the Best Paper Award of the IEEE SmartData 2022.
 And he was the recipient of Outstanding Research Award from Georgia State University.
-You can find my [CV](../assets/Honghui_Xu_CV.pdf) here.
 
-**I am currently recruiting Ph.D. and Master's students who are interested in my research topics and will be awarded scholarships.**
+**I am currently recruiting Ph.D. and Master's students who are interested in my research topics and will be awarded scholarships.You can find my [CV](../assets/Honghui_Xu_CV.pdf) here.**
