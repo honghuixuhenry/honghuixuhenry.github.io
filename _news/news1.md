@@ -4,4 +4,4 @@ collection: news
 permalink: /news/news1
 ---
 
-- News is coming soon.
+- I am currently recruiting Ph.D. and Master's students who will be awarded scholarships.
