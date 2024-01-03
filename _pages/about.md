@@ -15,6 +15,4 @@ He served as the Program Committees for AAAI, SDM, and ICMC, and was a recipient
 And he was the recipient of Outstanding Research Award from Georgia State University.
 You can find my [CV](../assets/Honghui_Xu_CV.pdf) here.
 
-```
-I am currently recruiting Ph.D. and Master's students who will be awarded scholarships.
-```
+**I am currently recruiting Ph.D. and Master's students who will be awarded scholarships.**
