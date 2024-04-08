@@ -2,7 +2,7 @@
 title: "Conference Review"
 collection: service
 permalink: /service/Conference_Service
----
+--- 
 
 - CVPR 2024 Workshop SynData4CV (CVPR 2024)
 - 20th International Conference on Learning Representations (ICLR 2024)
