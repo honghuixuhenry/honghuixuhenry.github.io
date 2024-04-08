@@ -4,6 +4,8 @@ collection: service
 permalink: /service/Conference_Service
 ---
 
+- CVPR 2024 Workshop SynData4CV (CVPR 2024)
+- 20th International Conference on Learning Representations (ICLR 2024)
 - 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)
 - NIPS 2023 Track Datasets and Benchmarks (NIPS 2023)
 - ICML 2023 Workshop AdvML-Frontiers (ICML 2023)
