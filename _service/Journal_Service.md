@@ -4,9 +4,10 @@ collection: service
 permalink: /service/Journal_Service
 ---
 
-- IEEE Transaction on Industrial Informatics (TII) (Impact Factor: 10.215)
-- IEEE Transaction on Vehicle Technology (TVT) (Impact Factor: 5.978)
-- IEEE Transaction on Computational Social Systems (TCSS) (Impact Factor: 5.14)
+- IEEE Transactions on Industrial Informatics (TII) (Impact Factor: 10.215)
+- IEEE Transactions on Mobile Computing (TMC) (Impact Factor: 7.9)
+- IEEE Transactions on Vehicle Technology (TVT) (Impact Factor: 5.978)
+- IEEE Transactions on Computational Social Systems (TCSS) (Impact Factor: 5.14)
 - IEEE Internet of Things Journal (IoTJ) (Impact Factor: 9.936)
 - IEEE Transactions on Wireless Communication (TWC) (Impact Factor: 7.016)
 - International Journal of Computer Vision (Impact Factor: 7.41)
