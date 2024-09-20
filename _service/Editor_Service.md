@@ -1,7 +1,7 @@
 ---
-title: "Program Committee Member"
+title: "Editor Service"
 collection: service
-permalink: /service/PC_Service
+permalink: /service/Editor_Service
 ---
 
 - Guest editor for Tsinghua Science and Technology
