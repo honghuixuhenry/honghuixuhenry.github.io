@@ -4,6 +4,10 @@ collection: service
 permalink: /service/PC_Service
 ---
 
+
+- 2025 International Conference on Performance, Computing, Communication Conference (IPCCC 2025, EDAS Chair)
+- 2025 International Conference on Computer Communications and Networks (ICCCN 2025, TPC Member)
+- 2025 International Conference on Intelligent Multimedia, Networking, and Security (IMNS, TPC Member)
 - 2024 International Conference on Mobility, Sensing and Networking (MSN 2024, Track Chair)
 - 2024 International Conference on Wireless Artificial Intelligent Computing Systems and Applications (WASA 2024, TPC member)
 - 2024 Annual Conference on Neural Information Processing (NIPS 2024)
