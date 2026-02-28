@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Honghui Xu" />
+  <meta name="description" content="Honghui Xu personal homepage" />
+  <title>Teaching | Honghui Xu</title>
+  <link rel="icon" type="image/png" href="assets/img/site-logo.png">
+  <!-- Bootstrap 5.3.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- Common CSS -->
+  <link rel="stylesheet" href="assets/css/common.css">
+</head>
+<body>
+  <div id="navbar"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('navbar.html').then(r => r.text()).then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      });
+      fetch('footer.html').then(r => r.text()).then(html => {
+        const footer = document.createElement('div');
+        footer.innerHTML = html;
+        document.body.appendChild(footer);
+      });
+    });
+  </script>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-12 content-spacing">
+
+      <div class="heading">Honghui Xu</div>
+      <div class="row">
+        <div class="col-md-10 col-6">
+          <img class="img-fluid headshot" src="assets/img/Honghui_Xu.jpg" alt="Headshot of Honghui Xu">
+        </div>
+      </div>
+      <div class="info-text">
+        <i>Assistant Professor</i><br>
+        Department of Information Technology<br>
+        <p class="university-color">Kennesaw State University</p>
+        Marietta, GA, USA, 30060<br>
+        <b>Email</b>: <span id="email-placeholder"></span>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var emailUser = "hxu10";
+            var emailHost = "kennesaw.edu";
+            var el = document.getElementById('email-placeholder');
+            if (emailHost) {
+              el.innerHTML = '<a href="mailto:' + emailUser + '@' + emailHost + '">' + emailUser + '@' + emailHost + '</a>';
+            } else {
+              el.textContent = emailUser;
+            }
+          });
+        </script>
+      </div>
+      <div class="link-list">
+        <a href="https://scholar.google.com/citations?user=2Mr7jRoAAAAJ&hl=zh-CN">Google Scholar</a> | <a href="https://github.com/honghuixuhenry">GitHub</a> | <a href="https://www.linkedin.com/in/honghui-xu-9a76691b0">LinkedIn</a> | <a href="https://orcid.org/0000-0002-9128-8454?lang=en">ORCID</a> | <a href="https://www.instagram.com/henryxu412">Instagram</a> | <a href="https://www.douyin.com/user/MS4wLjABAAAAt9HufZuy43GyTmxXW3zu-pVqQzNPufuB652r9e1n4Jo">TikTok</a> | <a href="assets/Honghui_Xu_CV.pdf">CV (PDF)</a> | <a href="lab.html">IntelliTrust Lab</a>
+      </div>
+
+      </div>
+      <div class="col-md-9 col-12 content-spacing">
+<h2 class='section-title'>Teaching</h2>
+<p>Selected teaching history.</p>
+<hr><h3>2025</h3>
+<div class='table-responsive'><table class='table table-sm table-clean'><thead><tr><th>Date</th><th>Role / Course</th><th>Type</th><th>Institution</th><th>Location</th></tr></thead><tbody>
+<tr><td>Aug 2025</td><td>Assistant Professor (Business Intelligence)</td><td>Graduate Course</td><td>Kennesaw State University, Department of Information Technology</td><td>Marietta, USA</td></tr>
+<tr><td>Jan 2025</td><td>Assistant Professor (Information Security Administration)</td><td>Undergraduate Course</td><td>Kennesaw State University, Department of Information Technology</td><td>Marietta, USA</td></tr>
+</tbody></table></div>
+<hr><h3>2024</h3>
+<div class='table-responsive'><table class='table table-sm table-clean'><thead><tr><th>Date</th><th>Role / Course</th><th>Type</th><th>Institution</th><th>Location</th></tr></thead><tbody>
+<tr><td>Aug 2024</td><td>Assistant Professor (Business Intelligence)</td><td>Graduate Course</td><td>Kennesaw State University, Department of Information Technology</td><td>Marietta, USA</td></tr>
+<tr><td>Jan 2024</td><td>Assistant Professor (Unix/Linux Administration)</td><td>Undergraduate Course</td><td>Kennesaw State University, Department of Information Technology</td><td>Marietta, USA</td></tr>
+</tbody></table></div>
+<hr><h3>2023</h3>
+<div class='table-responsive'><table class='table table-sm table-clean'><thead><tr><th>Date</th><th>Role / Course</th><th>Type</th><th>Institution</th><th>Location</th></tr></thead><tbody>
+<tr><td>Aug 2023</td><td>Teaching Assistant (Privacy Aware Computing)</td><td>Graduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+<tr><td>Jun 2023</td><td>Teaching Assistant (Network Security)</td><td>Graduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+<tr><td>Jan 2023</td><td>Teaching Assistant (Secure and Private AI)</td><td>Graduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+</tbody></table></div>
+<hr><h3>2022</h3>
+<div class='table-responsive'><table class='table table-sm table-clean'><thead><tr><th>Date</th><th>Role / Course</th><th>Type</th><th>Institution</th><th>Location</th></tr></thead><tbody>
+<tr><td>Aug 2022</td><td>Lab Instructor (Computer Organization and Programming)</td><td>Undergraduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+<tr><td>Jun 2022</td><td>Lab Instructor (Computer Organization and Programming)</td><td>Undergraduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+<tr><td>Jan 2022</td><td>Lab Instructor (Principle of Programming for Data Science I)</td><td>Undergraduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+</tbody></table></div>
+<hr><h3>2021</h3>
+<div class='table-responsive'><table class='table table-sm table-clean'><thead><tr><th>Date</th><th>Role / Course</th><th>Type</th><th>Institution</th><th>Location</th></tr></thead><tbody>
+<tr><td>Aug 2021</td><td>Lab Instructor (Principle of Programming for Data Science II)</td><td>Undergraduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+<tr><td>Jan 2021</td><td>Lab Instructor (Principle of Programming for Data Science II)</td><td>Undergraduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+</tbody></table></div>
+<hr><h3>2020</h3>
+<div class='table-responsive'><table class='table table-sm table-clean'><thead><tr><th>Date</th><th>Role / Course</th><th>Type</th><th>Institution</th><th>Location</th></tr></thead><tbody>
+<tr><td>Aug 2020</td><td>Lab Instructor (Principle of Programming for Data Science II)</td><td>Undergraduate Course</td><td>Georgia State University, Department of Computer Science</td><td>Atlanta, USA</td></tr>
+</tbody></table></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

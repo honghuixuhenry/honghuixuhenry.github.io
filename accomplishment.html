@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Honghui Xu" />
+  <meta name="description" content="Honghui Xu personal homepage" />
+  <title>Awards &amp; Grants | Honghui Xu</title>
+  <link rel="icon" type="image/png" href="assets/img/site-logo.png">
+  <!-- Bootstrap 5.3.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- Common CSS -->
+  <link rel="stylesheet" href="assets/css/common.css">
+</head>
+<body>
+  <div id="navbar"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('navbar.html').then(r => r.text()).then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      });
+      fetch('footer.html').then(r => r.text()).then(html => {
+        const footer = document.createElement('div');
+        footer.innerHTML = html;
+        document.body.appendChild(footer);
+      });
+    });
+  </script>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-12 content-spacing">
+
+      <div class="heading">Honghui Xu</div>
+      <div class="row">
+        <div class="col-md-10 col-6">
+          <img class="img-fluid headshot" src="assets/img/Honghui_Xu.jpg" alt="Headshot of Honghui Xu">
+        </div>
+      </div>
+      <div class="info-text">
+        <i>Assistant Professor</i><br>
+        Department of Information Technology<br>
+        <p class="university-color">Kennesaw State University</p>
+        Marietta, GA, USA, 30060<br>
+        <b>Email</b>: <span id="email-placeholder"></span>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var emailUser = "hxu10";
+            var emailHost = "kennesaw.edu";
+            var el = document.getElementById('email-placeholder');
+            if (emailHost) {
+              el.innerHTML = '<a href="mailto:' + emailUser + '@' + emailHost + '">' + emailUser + '@' + emailHost + '</a>';
+            } else {
+              el.textContent = emailUser;
+            }
+          });
+        </script>
+      </div>
+      <div class="link-list">
+        <a href="https://scholar.google.com/citations?user=2Mr7jRoAAAAJ&hl=zh-CN">Google Scholar</a> | <a href="https://github.com/honghuixuhenry">GitHub</a> | <a href="https://www.linkedin.com/in/honghui-xu-9a76691b0">LinkedIn</a> | <a href="https://orcid.org/0000-0002-9128-8454?lang=en">ORCID</a> | <a href="https://www.instagram.com/henryxu412">Instagram</a> | <a href="https://www.douyin.com/user/MS4wLjABAAAAt9HufZuy43GyTmxXW3zu-pVqQzNPufuB652r9e1n4Jo">TikTok</a> | <a href="assets/Honghui_Xu_CV.pdf">CV (PDF)</a> | <a href="lab.html">IntelliTrust Lab</a>
+      </div>
+
+      </div>
+      <div class="col-md-9 col-12 content-spacing">
+<h2 class='section-title'>Awards, Fellowships & Grants</h2><h4>Research Award</h4>
+<ul>
+<li>Outstanding Research Award, $500, Department of Computer Science, GSU, Spring 2022.</li>
+</ul>
+<h4>Fellowship</h4>
+<ul>
+<li>First-Year Scholars 2025-2026, $1,000, KSU, 2025</li>
+<li>First-Year Scholars 2024-2025, $1,000, KSU, 2024</li>
+<li>Summer Research Camp Fellowship, $10,000, KSU, 2024</li>
+<li>Brains and Behavior Fellowship, $19,000/yr, Neuroscience Institute, GSU, 2021, 2022, and 2023.</li>
+</ul>
+<h4>Grants</h4>
+<ul>
+<li>Nexa AI Research Award, $52,561, Nexa AI, 2025</li>
+<li>Interdisciplinary Seed Grants - Grand Challenge, $200,000, KSU, 2024</li>
+</ul><p><a href='index-Honghui.html'>Back to home →</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

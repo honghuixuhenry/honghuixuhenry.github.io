@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Honghui Xu" />
+  <meta name="description" content="Honghui Xu personal homepage" />
+  <title>Publications | Honghui Xu</title>
+  <link rel="icon" type="image/png" href="assets/img/site-logo.png">
+  <!-- Bootstrap 5.3.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- Common CSS -->
+  <link rel="stylesheet" href="assets/css/common.css">
+</head>
+<body>
+  <div id="navbar"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('navbar.html').then(r => r.text()).then(html => {
+        document.getElementById('navbar').innerHTML = html;
+      });
+      fetch('footer.html').then(r => r.text()).then(html => {
+        const footer = document.createElement('div');
+        footer.innerHTML = html;
+        document.body.appendChild(footer);
+      });
+    });
+  </script>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-12 content-spacing">
+
+      <div class="heading">Honghui Xu</div>
+      <div class="row">
+        <div class="col-md-10 col-6">
+          <img class="img-fluid headshot" src="assets/img/Honghui_Xu.jpg" alt="Headshot of Honghui Xu">
+        </div>
+      </div>
+      <div class="info-text">
+        <i>Assistant Professor</i><br>
+        Department of Information Technology<br>
+        <p class="university-color">Kennesaw State University</p>
+        Marietta, GA, USA, 30060<br>
+        <b>Email</b>: <span id="email-placeholder"></span>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var emailUser = "hxu10";
+            var emailHost = "kennesaw.edu";
+            var el = document.getElementById('email-placeholder');
+            if (emailHost) {
+              el.innerHTML = '<a href="mailto:' + emailUser + '@' + emailHost + '">' + emailUser + '@' + emailHost + '</a>';
+            } else {
+              el.textContent = emailUser;
+            }
+          });
+        </script>
+      </div>
+      <div class="link-list">
+        <a href="https://scholar.google.com/citations?user=2Mr7jRoAAAAJ&hl=zh-CN">Google Scholar</a> | <a href="https://github.com/honghuixuhenry">GitHub</a> | <a href="https://www.linkedin.com/in/honghui-xu-9a76691b0">LinkedIn</a> | <a href="https://orcid.org/0000-0002-9128-8454?lang=en">ORCID</a> | <a href="https://www.instagram.com/henryxu412">Instagram</a> | <a href="https://www.douyin.com/user/MS4wLjABAAAAt9HufZuy43GyTmxXW3zu-pVqQzNPufuB652r9e1n4Jo">TikTok</a> | <a href="assets/Honghui_Xu_CV.pdf">CV (PDF)</a> | <a href="lab.html">IntelliTrust Lab</a>
+      </div>
+
+      </div>
+      <div class="col-md-9 col-12 content-spacing">
+<h2 class='section-title'>Publications</h2>
+<p>You can also find a complete list on <a href='https://scholar.google.com/citations?user=2Mr7jRoAAAAJ&hl=zh-CN' target='_blank'>Google Scholar</a>.</p>
+<hr><h3>2025</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[ICDM]</strong> <strong>H. Xu</strong>, S. Shrestha, W. Chen, Z. Li and Z. Cai, DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large Language Models [C]. <em>IEEE International Conference on Data Mining (ICDM)</em>, 2025. (<strong>Acceptance Ratio: 13.5\%</strong>) <a href="files/ICDM3.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs0" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs0"><div class="card card-body"><p>As on-device large language model (LLM) systems become increasingly prevalent, federated fine-tuning enables advanced language understanding and generation directly on edge devices; however, it also involves processing sensitive, user-specific data, raising significant privacy concerns within the federated learning framework. To address these challenges, we propose DP-FedLoRA, a privacy-enhanced federated fine-tuning framework that integrates LoRA-based adaptation with differential privacy in a communication-efficient setting. Each client locally clips and perturbs its LoRA matrices using Gaussian noise to satisfy \epsilon-differential privacy. We further provide a theoretical analysis demonstrating the unbiased nature of the updates and deriving bounds on the variance introduced by noise, offering practical guidance for privacy-budget calibration. Experimental results across mainstream benchmarks show that DP-FedLoRA delivers competitive performance while offering strong privacy guarantees, paving the way for scalable and privacy-preserving LLM deployment in on-device environments.</p>
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[IoTJ]</strong> <strong>H. Xu</strong>, W. Li, D. Takebi, D. Seo, and Z. Cai, Privacy-Preserving Multimodal Sentiment Analysis [J]. <em>IEEE Internal of Things Journal (IoTJ)</em>, 2025. <a href="files/IoTJ_2025.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs1" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs1"><div class="card card-body"><p>Multimodal sentiment analysis plays a critical role in numerous IoT-driven applications, such as personalized smart assistants, healthcare monitoring systems, and intelligent transportation networks, where accurate interpretation of user emotions is vital for enhancing service quality. However, a severe threat of privacy leakage in the multimodal sentiment analysis has been overlooked by previous works. To fill this gap, we propose a Differentially Private Correlated Representation Learning<br />
+(DPCRL) model to achieve privacy-preserving multimodal sentiment analysis by combining a correlated representation learning scheme with a differential privacy protection scheme. Our correlated representation learning scheme aims to achieve heterogeneous multimodal data transformation to meet the requirements of privacy-preserving multimodal sentiment analysis by learning the correlated and uncorrelated representations, where especially, a pre-determined correlation factor is employed to flexibly adjust the expected correlation among the correlated representations. The differential privacy protection scheme is used to obtain the disturbed correlated and uncorrelated representations by adding Laplace noise for ϵ-differential privacy. In particular, the correlation factor can help alleviate the side-effect of the added Laplace noise on the sentiment prediction performance. Finally, via conducting a series of real-data experiments, we validate that our proposed DPCRL model is superior to the state of the art for privacy-preserving multimodal sentiment analysis.</p>
+</div></div>
+</div>
+
+<hr><h3>2024</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[ICDM]</strong> <strong>H. Xu</strong>, W. Li, L. Zhao, S. Wu, Z. Cai, APOLLO: Differential Private Online Multi-Sensor Data Prediction with Certified Performance [C].<em>IEEE International Conference on Data Mining (ICDM)</em>, 2024. (<strong>Acceptance Ratio: 9.37\%</strong>) <a href="files/ICDM2.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs2" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs2"><div class="card card-body"><p>When multimodal AI systems increasingly utilize diverse data sources to achieve advanced understanding and interaction, they inevitably collect vast amounts of sensitive information, thus highlighting the urgent need for robust privacy safeguards, especially as these technologies expand into fields like healthcare, finance, and education. Existing research on data privacy in AI, encompassing adversarial training-based models, differential privacy-based models, and differentially private transform-based models, often neglects the inter-correlation inherent in multi-sensor data. To address this gap, we propose the differentiAl Private OnLine muLti-sensor data predictiOn model (APOLLO), which simultaneously considers intra-correlation and inter-correlation to enhance privacy protection while maintaining predictive performance. Under the proposed APOLLO framework, we design two implementations: APOLLO I, which ensures ε-differential privacy by adding Laplace noise to each correlated data segment, and APOLLO II, which applies additional noise to make the concatenated multi-sensor data realize ε-differential privacy. Furthermore, we conduct the theoretical analysis to reveal the relationship between performance influence and the privacy budget, providing guidelines for noise addition with the aim of achieving certified performance. Comprehensive experiments validate the effectiveness of the APOLLO model, establishing a new standard for privacy-preserving multi-sensor data prediction.</p>
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[JDIQ]</strong> <strong>H. Xu</strong>, Z. Cai, L. Ma, Y. Li, D. Seo, and W. Li, Overheard: Audio-based Integral Event Inference [J]. <em>ACM Journal of Data and Information Quality (JDIQ)</em>, 2024. <a href="files/JDIQ.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs3" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs3"><div class="card card-body"><p>There is no doubt that the popularity of smart devices and the development of deep learning models bring individuals too much convenience. However, some rancorous attackers can also implement unexpected privacy inferences on sensed data from smart devices via advanced deep-learning tools. Nonetheless, up to now, no work has investigated the possibility of riskier overheard, referring to inferring an integral event about humans by analyzing polyphonic audios. To this end, we propose an Audio-based integraL evenT infERence (ALTER) model and two upgraded models (ALTER-p and ALTER-pp) to achieve the integral event inference. Specifically, ALTER applies a link-like multi-label inference scheme to consider the short-term co-occurrence dependency among multiple labels for the event inference. Moreover, ALTER-p uses a newly designed attention mechanism, which fully exploits audio information and the importance of all data points, to mitigate information loss in audio data feature learning for the event inference performance improvement. Furthermore, ALTER-pp takes into account the long-term co-occurrence dependency among labels to infer an event with more diverse elements, where another devised attention mechanism is utilized to conduct a graph-like multi-label inference. Finally, extensive real-data experiments demonstrate that our models are effective in integral event inference and also outperform the state-of-the-art models.</p>
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[IoTM]</strong> <strong>H. Xu</strong>, Y. Li, O. Balogun, S. Wu, Y. Wang, and Z. Cai, Security Risks Concerns of Generative AI in the IoT [M]. <em>Internet of Things Magazine (IoTM)</em>, 6(3), 62-67 2024. <a href="files/IoTM.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs4" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs4"><div class="card card-body"><p>In an era where the Internet of Things (IoT) intersects increasingly with generative Artificial Intelligence (AI), this article scrutinizes the emergent security risks inherent in this integration. We explore how generative AI drives innovation in IoT and we analyze the potential for data breaches when using generative AI and the misuse of generative AI technologies in IoT ecosystems. These risks not only threaten the privacy and efficiency of IoT systems but also pose broader implications for trust and safety in AI-driven environments. The discussion in this article extends to strategic approaches for mitigating these risks, including the development of robust security protocols, the multi- layered security approaches, and the adoption of AI technological solutions. Through a comprehensive analysis, this article aims to shed light on the critical balance between embracing AI advancements and ensuring stringent security in IoT, providing insights into the future direction of these intertwined technologies.</p>
+</div></div>
+</div>
+
+<hr><h3>2023</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[ICDM]</strong> <strong>H. Xu</strong>, Z. Cai, Z. Xiong and W. Li, Backdoor Attack on 3D Grey Image Segmentation [C]. <em>IEEE International Conference on Data Mining (ICDM)</em>, 2023. (<strong>Acceptance Ratio: 9.37\%</strong>) <a href="files/ICDM.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs5" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs5"><div class="card card-body"><p>3D grey image segmentation has become a promising approach to facilitate practical applications with the help of advanced deep learning models. Although a number of previous works have investigated the vulnerability of deep learning models to backdoor attack, there is no work to study the severe risk of backdoor attack on 3D grey image segmentation. To this end, we propose two backdoor attack methods on 3D grey image segmentation, including Full-control Backdoor Attack (FCBA) and Partial-control Backdoor Attack (PCBA), on 3D grey image segmentation by leveraging a frequency trigger injection function and a rotation-based label corruption function. Our proposed trigger injection function is applied to insert a 3D trigger pattern into the benign 3D grey images in the frequency domain while ensuring the invisibility of the trigger pattern. And the proposed rotation-based label corruption function is employed to yield the crafted labels with the aim of decreasing the performance of segmentation. Finally, through comprehensive experiments on a real-world dataset, we demonstrate the effectiveness of our proposed backdoor models, the frequency trigger injection function, and the rotation-based label corruption function.</p>
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[TST]</strong> B. Xie, <strong>H. Xu</strong>, Y. Joe, D. Seo, and Z. Cai, Lightweight Super-Resolution Model for Complete Model Copyright Protection [J]. <em>Tsinghua Science and Technology (TST)</em>, 2023. (<strong>IF: 3.515</strong>) <a href="files/TST.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs6" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs6"><div class="card card-body"><p>Deep learning-based techniques are broadly used in various applications, which exhibit superior performance compared to traditional methods. One of the mainstream topics in computer vision is the image super-resolution task. In recent deep-learning neural networks, the number of parameters in each convolution layer has increased along with more layers and feature maps, resulting in better image super-resolution performance. In today's era, numerous service providers offer super-resolution services to users, providing them with remarkable convenience. However, the availability of open-source super-resolution services exposes service providers to the risk of copyright infringement, as the complete model could be vulnerable to leakage Therefore, safeguarding the copyright of the complete model is a non-trivial concern. To tackle this issue, this paper presents a lightweight model as a substitute for the original complete model in image super-resolution. This research has identified smaller networks that can deliver impressive performance while protecting the original model's copyright. Finally, comprehensive experiments are conducted on multiple datasets to demonstrate the superiority of the proposed approach in generating super-resolution images even using lightweight neural networks.</p>
+</div></div>
+</div>
+
+<hr><h3>2022</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[TCS]</strong> <strong>H. Xu</strong>, W. Li, and Z. Cai, Analysis on Methods to Effectively Improve Transfer Learning Performance [J]. <em>Theoretical Computer Science (TCS)</em>, 2022, 940: 90-107.(<strong>IF: 1.002</strong>) <a href="files/TCS.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs7" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs7"><div class="card card-body"><p>Transfer learning has become a prevailing machine learning technique thanks to its superiority in learning knowledge from limited training data for prediction. In the existing works, collection and collaboration are two major approaches to realize the improvement of transfer learning performance. Even though the effectiveness of these approaches has been validated in extensive experiments, there lacks the support of theoretical analysis. Consequently, how to enhance transfer learning effectively is an open problem. In light of this, in this paper, we thoroughly and deeply study the methods of improving transfer learning performance in order to provide the guidelines for applying transfer learning in real applications. Through our proof process, critical conclusions are drawn to help learn the motivation of implementing collection and collaboration, the performance gap between collection and collaboration, and the impacts of data sharing strategies on transfer learning in collaboration. These conclusions can further build a theoretical foundation for future research on transfer learning.</p>
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[TITS]</strong> <strong>H. Xu</strong>, Z. Cai, R. Li and W. Li, Efficient CityCam-to-Edge Cooperative Learning for Vehicle Counting in ITS [J]. <em>IEEE Transaction on Intelligent Transportation Systems (TITS)</em>, 2022, 23(9), 16600-16611.(<strong>IF: 2.534</strong>) <a href="files/TITS.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs8" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs8"><div class="card card-body"><p>Vehicle counting is a fundamental component in Intelligent Transportation System (ITS) for city traffic management. Although a number of vehicle counting approaches have been proposed, their essential drawbacks limit the efficacy of vehicle counting in real applications. In this paper, we propose a CityCam-to-Edge cooperative learning framework by cooperating multiple city cameras with an edge server to count vehicles more efficiently. Our learning framework consists of a lightweight feature extraction scheme deployed on the city cameras and a vehicle counting model implemented on the edge server. We devise the lightweight feature extraction scheme by leveraging multiple convolutional layers with few kernels in the design of deep learning architecture to reduce the utilization of parameters for feature extraction, so that the city cameras’ memory consumption and the data transmission time can be greatly reduced. Moreover, we design two novel vehicle counting models, F2F-M and O2O-M, to improve the counting performance by exploiting the temporal correlation among videos captured from multiple city cameras in a frame-to-frame manner and a video-to-video manner, respectively. By combining the lightweight feature extraction scheme and the proposed vehicle counting models, we obtain two end-to-end vehicle counting models, Lite-F2F-M and Lite-O2O-M. Finally, via conducting extensive experiments, we demonstrate that Lite-F2F-M and Lite- O2O-M models outperform the state-of-the-art in terms of vehicle counting accuracy and time efficiency.</p>
+
+<!-- Recommended citation: Xu H, Cai Z, Li R, et al. Efficient CityCam-to-edge cooperative learning for vehicle counting in ITS[J]. IEEE Transactions on Intelligent Transportation Systems, 2022, 23(9): 16600-16611. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[SmartData]</strong> B. Xie, <strong>H. Xu</strong>, Z. Xiong, Y. Li and Z. Cai, A Self-Supervised Purification Mechanism for Adversarial Samples [C]. <em>2022 IEEE Smart Data (SmartData)</em>, 2022: 501-509. (<strong>Best Paper Award</strong>) <a href="files/SmartData.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs9" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs9"><div class="card card-body"><p>Deep learning-based techniques are broadly used in a variety of applications, which exhibit superior performance compared to traditional methods. One of mainstream topics in computer vision is the image super-resolution task. In recent deep learning neural networks, the number of parameters in each convolution layer has been increasing along with more layers and more feature maps, resulting in better image image super-resolution performance. However, this raises a problem in that all these neural networks require a significant amount of time and computational resource to train. It is not feasible to implement massive neural networks into these devices that have limited computational resources. Meanwhile, it is not a trivial thing to think about the complete model copyright protection. Therefore, there is a demand to find smaller networks that can perform well while achieving the protection of the original model’s copyright. To address this problem, this paper proposes a lightweight model to replace the original complete model for image super-resolution. Finally, comprehensive experiments are conducted on multiple datasets to demonstrate the superiority of the proposed approach in generating super-resolution images even using lightweight neural network.</p>
+
+<!-- Recommended citation: Xie B, Xu H, Xiong Z, et al. A Self-Supervised Purification Mechanism for Adversarial Samples[C]//2022 IEEE Smart Data (SmartData). IEEE, 2022: 501-509. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[TII]</strong> S. De, <strong>H. Xu</strong>, M. Bermudez-Edo, Z. Cai, Deep Generative Models in the Industrial Internet of Things: A Survey [J]. <em>IEEE Transaction on Industrial Informatics (TII)</em>, 2022, 18(9): 5728-5737.(<strong>IF: 10.215</strong>) <a href="files/TII.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs10" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs10"><div class="card card-body"><p>Advances in communication technologies and artificial intelligence are accelerating the paradigm of industrial Internet of Things (IIoT). With IIoT enabling continuous integration of sensors and controllers with the network, intelligent analysis of the generated Big Data is a critical requirement. Although IIoT is considered a subset of IoT, it has its own peculiarities in terms of higher levels of safety, security, and low-latency communication in an environment of critical real-time operations. Under these circumstances, discriminative deep learning (DL) algorithms are unsuitable due to their need for large amounts of labeled and balanced training data, uncertainty of inputs, etc. To overcome these issues, researchers have started using deep generative models (DGMs), which combine the flexibility of DL with the inference power of probabilistic modeling. In this article, we review the state of the art of DGMs and their applicability to IIoT, classifying the reviewed works into the IIoT application areas of anomaly detection, trust-boundary protection, network traffic prediction, and platform monitoring. Following an analysis of existing IIoT DGM implementations, we identify challenges (i.e., weak discriminative capability, insufficient interpretability, lack of generalization ability, generated data vulnerability, privacy concern, and data complexity) that need to be investigated in order to accelerate the adoption of DGMs in IIoT and also propose some potential research directions.</p>
+
+<!-- Recommended citation: De S, Bermudez-Edo M, Xu H, et al. Deep generative models in the industrial internet of things: a survey[J]. IEEE Transactions on Industrial Informatics, 2022, 18(9): 5728-5737. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[IoTJ]</strong> <strong>H. Xu</strong>, Z. Cai, D. Takabi and W. Li, Audio-Visual Autoencoding for Privacy-Preserving Video Streaming [J]. <em>IEEE Internet of Things Journal (IoTJ)</em>, 2021, 9(3): 1749-1761.(<strong>IF: 9.936</strong>) <a href="files/IoTJ.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs11" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs11"><div class="card card-body"><p>The demand of sharing video streaming extremely increases due to the proliferation of Internet of Things (IoT) devices in recent years, and the explosive development of artificial intelligent (AI) detection techniques has made visual privacy protection more urgent and difficult than ever before. Although a number of approaches have been proposed, their essential drawbacks limit the effect of visual privacy protection in real applications. In this article, we propose a cycle vector-quantized variational autoencoder (cycle-VQ-VAE) framework to encode and decode the video with its extracted audio, which takes the advantage of multiple heterogeneous data sources in the video itself to protect individuals’ privacy. In our cycle-VQ-VAE frame- work, a fusion mechanism is designed to integrate the video and its extracted audio. Particularly, the extracted audio works as the random noise with a nonpatterned distribution, which outperforms the noise that follows a patterned distribution for hiding visual information in the video. Under this framework, we design two models, including the frame-to-frame (F2F) model and video-to-video (V2V) model, to obtain privacy-preserving video streaming. In F2F, the video is processed as a sequence of frames; while, in V2V, the relations between frames are utilized to deal with the video, greatly improving the performance of privacy protection, video compression, and video reconstruction. Moreover, the video streaming is compressed in our encoding process, which can resist side-channel inference attack during video transmission and reduce video transmission time. Through the real-data experiments, we validate the superiority of our models (F2F and V2V) over the existing methods in visual privacy protection, visual quality preservation, and video transmission efficiency. The codes of our model implementation and more experimental results are now available at https://github.com/ahahnut/cycle-VQ-VAE.</p>
+
+<!-- Recommended citation: Xu H, Cai Z, Takabi D, et al. Audio-visual autoencoding for privacy-preserving video streaming[J]. IEEE Internet of Things Journal, 2021, 9(3): 1749-1761. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[TKDD]</strong> <strong>H. Xu</strong>, Z. Cai and W. Li, Privacy-Preserving Mechanisms for Multi-Label Image Recognition [J]. <em>ACM Transactions on Knowledge Discovery from Data (TKDD)</em>, 2022, 16(4): 1-21.(<strong>IF: 4.54</strong>) <a href="files/TKDD.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs12" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs12"><div class="card card-body"><p>Multi-label image recognition has been an indispensable fundamental component for many real computer vision applications. However, a severe threat of privacy leakage in multi-label image recognition has been overlooked by existing studies. To fill this gap, two privacy-preserving models, Privacy-Preserving Multi-label Graph Convolutional Networks (P2-ML-GCN) and Robust P2-ML-GCN (RP2-ML-GCN), are developed in this article, where differential privacy mechanism is implemented on the model’s outputs so as to defend black- box attack and avoid large aggregated noise simultaneously. In particular, a regularization term is exploited in the loss function of RP2-ML-GCN to increase the model prediction accuracy and robustness. After that, a proper differential privacy mechanism is designed with the intention of decreasing the bias of loss function in P2-ML-GCN and increasing prediction accuracy. Besides, we analyze that a bounded global sensitivity can mitigate excessive noise’s side effect and obtain a performance improvement for multi-label image recognition in our models. Theoretical proof shows that our two models can guarantee differential privacy for model’s outputs, weights and input features while preserving model robustness. Finally, comprehensive experiments are conducted to validate the advantages of our proposed models, including the implementation of differential privacy on model’s outputs, the incorporation of regularization term into loss function, and the adoption of bounded global sensitivity for multi-label image recognition.</p>
+
+<!-- Recommended citation: Xu H, Cai Z, Li W. Privacy-Preserving Mechanisms for Multi-Label Image Recognition[J]. ACM Transactions on Knowledge Discovery from Data (TKDD), 2022, 16(4): 1-21. -->
+</div></div>
+</div>
+
+<hr><h3>2021</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[COCOA]</strong> <strong>H. Xu</strong>, Z. Cai and W. Li, Which Option Is a Better Way to Improve Transfer Learning Performance? [C]. <em>International Conference on Combinatorial Optimization and Applications (COCOA)</em>, Springer, Cham, 2021: 61-74. <a href="files/COCOA.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs13" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs13"><div class="card card-body"><p>Transfer learning has been widely applied in Artificial Intelligence of Things (AIoT) to support intelligent services. Typically, collection and collaboration are two mainstreaming methods to improve transfer learning performance, whose efficiency has been evaluated by real-data experimental results but lacks validation of theoretical analysis. In order to provide guidance of implementing transfer learning in real applications, a theoretical analysis is in desired need to help us fully understand how to efficiently improve transfer learning performance. To this end, in this paper, we conduct comprehensive analysis on the methods of enhancing transfer learning performance. More specifically, we prove the answers to three critical questions for transfer learning: (i) by comparing collecting instances and collecting attributes, which collection approach is more efficient? (ii) is collaborative transfer learning efficient? and (iii) by comparing collection with collaboration, which one is more efficient? Our answers and findings can work as fundamental guidance for developing transfer learning.</p>
+
+<!-- Recommended citation: Xu H, Cai Z, Li W. Which Option Is a Better Way to Improve Transfer Learning Performance?[C]//Combinatorial Optimization and Applications: 15th International Conference, COCOA 2021, Tianjin, China, December 17–19, 2021, Proceedings. Cham: Springer International Publishing, 2021: 61-74. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[CSUR]</strong> Z. Cai, Z. Xiong, <strong>H. Xu</strong>, P. Wang, W. Li and Y. Pan, Generative Adversarial Networks: A Survey Toward Private and Secure Applications [J]. <em>ACM Computing Surveys (CSUR)</em>, 2021, 54(6): 1-38.(<strong>IF: 10.282</strong>) <a href="files/CSUR.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs14" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs14"><div class="card card-body"><p>Generative Adversarial Networks (GANs) have promoted a variety of applications in computer vision and natural language processing, among others, due to its generative model’s compelling ability to generate realistic examples plausibly drawn from an existing distribution of samples. GAN not only provides impressive performance on data generation-based tasks but also stimulates fertilization for privacy and security oriented research because of its game theoretic optimization strategy. Unfortunately, there are no comprehensive surveys on GAN in privacy and security, which motivates this survey to summarize systematically. The existing works are classified into proper categories based on privacy and security functions, and this survey conducts a comprehensive analysis of their advantages and drawbacks. Considering that GAN in privacy and security is still at a very initial stage and has imposed unique challenges that are yet to be well addressed, this article also sheds light on some potential privacy and security applications with GAN and elaborates on some future research directions.</p>
+
+<!-- Recommended citation: Cai Z, Xiong Z, Xu H, et al. Generative adversarial networks: A survey toward private and secure applications[J]. ACM Computing Surveys (CSUR), 2021, 54(6): 1-38. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[TVT]</strong> Z. Xiong, <strong>H. Xu</strong>, W. Li and Z. Cai, Multi-Source Adversarial Sample Attack on Autonomous Vehicles [J]. <em>IEEE Transactions on Vehicular Technology (TVT)</em>, 2021, 70(3): 2822-2835.(<strong>IF: 5.978</strong>) <a href="files/TVT.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs15" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs15"><div class="card card-body"><p>Deep learning has an impressive performance of object detection and classification for autonomous vehicles. Nevertheless, the essential vulnerability of deep learning models to adversarial samples makes the autonomous vehicles suffer severe security and safety issues. Although a number of works have been proposed to study adversarial samples, only a few of them are designated for the scenario of autonomous vehicles. Moreover, the state-of-the-art attack models only focus on a single data source without considering the correlation among multiple data sources. To fill this blank, we propose two multi-source adversarial sample attack models, including the parallel attack model and the fusion attack model to simultaneously attack the image and LiDAR perception systems in the autonomous vehicles. In the parallel attack model, adversarial samples are generated from the original image and LiDAR data separately. In the fusion attack model, the adversarial samples of image and LiDAR can be generated from a low-dimension vector at the same time by fully exploring data correlation for data fusion and adversarial sample generation. Through comprehensive real-data experiments, we validate that our proposed models are more powerful and efficient to break down the perception systems of autonomous vehicles compared with the state-of-the-art. Furthermore, we simulate possible attack scenarios in Vehicular Ad hoc Networks (VANETs) to evaluate the attack performance of our proposed methods.</p>
+
+<!-- Recommended citation: Xiong Z, Xu H, Li W, et al. Multi-source adversarial sample attack on autonomous vehicles[J]. IEEE Transactions on Vehicular Technology, 2021, 70(3): 2822-2835. -->
+</div></div>
+</div>
+
+<hr><h3>2019</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[Neurocomputing]</strong> Z. Kang, <strong>H. Xu</strong>, B. Wang, H. Zhu and Z. Xu, Clustering with Similarity Preserving [J]. <em>Neurocomputing</em>, 2019, 365(6): 211-218.(<strong>IF: 5.719</strong>) <a href="files/Neuro.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs16" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs16"><div class="card card-body"><p>Graph-based clustering has shown promising performance in many tasks. A key step of graph-based approach is the similarity graph construction. In general, learning graph in kernel space can enhance clustering accuracy due to the incorporation of nonlinearity. However, most existing kernel-based graph learning mechanisms is not similarity-preserving, hence leads to sub-optimal performance. To overcome this drawback, we propose a more discriminative graph learning method which can preserve the pair- wise similarities between samples in an adaptive manner for the first time. Specifically, we require the learned graph be close to a kernel matrix, which serves as a measure of similarity in raw data. Moreover, the structure is adaptively tuned so that the number of connected components of the graph is exactly equal to the number of clusters. Finally, our method unifies clustering and graph learning which can directly obtain cluster indicators from the graph itself without performing further clustering step. The effectiveness of this approach is examined on both single and multiple kernel learning scenarios in several datasets.</p>
+
+<!-- Recommended citation: Kang Z, Xu H, Wang B, et al. Clustering with similarity preserving[J]. Neurocomputing, 2019, 365: 211-218. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[Entropy]</strong> M. Li, <strong>H. Xu</strong> and Y. Deng, Evidential Decision Tree based on Belief Entropy [J]. <em>Entropy</em>, 2019, 21(9): 897.(<strong>IF: 2.738</strong>) <a href="files/Entropy.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs17" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs17"><div class="card card-body"><p>Decision Tree is widely applied in many areas, such as classification and recognition. Traditional information entropy and Pearson’s correlation coefficient are often applied as measures of splitting rules to find the best splitting attribute. However, these methods can not handle uncertainty, since the relation between attributes and the degree of disorder of attributes can not be measured by them. Motivated by the idea of Deng Entropy, it can measure the uncertain degree of Basic Belief Assignment (BBA) in terms of uncertain problems. In this paper, Deng entropy is used as a measure of splitting rules to construct an evidential decision tree for fuzzy dataset classification. Compared to traditional combination rules used for combination of BBAs, the evidential decision tree can be applied to classification directly, which efficiently reduces the complexity of the algorithm. In addition, the experiments are conducted on iris dataset to build an evidential decision tree that achieves the goal of more accurate classification.</p>
+
+<!-- Recommended citation: Li M, Xu H, Deng Y. Evidential decision tree based on belief entropy[J]. Entropy, 2019, 21(9): 897. -->
+</div></div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[IJIS]</strong> <strong>H. Xu</strong> and Y. Deng, Dependent Evidence Combination based on Decision-Making Trial and Evaluation Laboratory Method [J]. <em>International Journal of Intelligent Systems</em>, 2019, 34(7): 1555-1571.(<strong>IF: 8.993</strong>) <a href="files/IJIS.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs18" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs18"><div class="card card-body"><p>Dempster‐Shafer is widely used to address the problems of uncertainty. One assumption mentioned in this theory is that the distribution of information should be independent. In practice, the requirement cannot be fulfilled. One of the efficient methods to deal with dependent evidence is to calculate the correlation discounting. However, existing coefficient can only be applied to show the direct relation between evidence A and B but do not take the indirect relationship into consideration. To address this issue, in this paper, a new method to combine dependent evidence based on decision‐making trial and evaluation laboratory is presented, not only considering the relation between evidence A and B and the relation between evidence B and C, but also considering the transitive influence between evidence A and C. Finally, the experiments on some benchmark data sets are illustrated to show the efficiency of the proposed method.</p>
+
+<!-- Recommended citation: Xu H, Deng Y. Dependent evidence combination based on decision‐making trial and evaluation laboratory method[J]. International Journal of Intelligent Systems, 2019, 34(7): 1555-1571. -->
+</div></div>
+</div>
+
+<hr><h3>2017</h3>
+
+<div class="pub-item">
+  <div class="pub-cite"><strong>[IEEE Access]</strong> <strong>H. Xu</strong> and Y. Deng, Dependent Evidence Combination based on Shearman Coefficient and Pearson Coefficient [J]. <em>IEEE ACCESS</em>, 2018, 6: 11634-11640.(<strong>IF: 3.476</strong>) <a href="files/Access.pdf">Download paper here</a></div>
+  <div class="pub-actions"><button class="btn btn-sm btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#abs19" aria-expanded="false">Abstract</button></div>
+  <div class="collapse mt-2" id="abs19"><div class="card card-body"><p>Dempster–Shafer evidence theory is efficient to deal with uncertain information. One assumption of evidence theory is that the source of information should be independent when combined by Dempster’s rule for evidence combination. However, the assumption does not coincide with the reality. A lot of works are done to solve the problem about the independence. The existing method based on the statistical parameter Pearson correlation coefficient discount is one of the feasible methods. However, the Pearson correlation coefficient is only used to characterize the linear correlation between the attributes of the normal distribution. In this paper, a new method is proposed, the Pearson correlation coefficient and Shearman correlation coefficient to generate the discounting factor. Taking the parametric statistic and nonparametric statistic into consideration, the proposed method is more efficient. The experiments on wine data set are illustrated to show the efficiency of our proposed method.</p>
+
+<!-- Recommended citation: Xu H, Deng Y. Dependent evidence combination based on shearman coefficient and pearson coefficient[J]. Ieee Access, 2017, 6: 11634-11640. -->
+</div></div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
