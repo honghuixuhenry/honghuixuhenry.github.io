@@ -18,14 +18,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <!-- Common CSS -->
   <link rel="stylesheet" href="assets/css/common.css">
-  <!-- Google Analytics (replace G-0EEN6KD6EC with your Measurement ID) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EEN6KD6EC"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-0EEN6KD6EC');
-  </script>
 </head>
 <body>
 <div id="navbar"></div>
@@ -79,11 +71,15 @@
         <a href="https://scholar.google.com/citations?user=2Mr7jRoAAAAJ&hl=zh-CN">Google Scholar</a> | <a href="https://github.com/honghuixuhenry">GitHub</a> | <a href="https://www.linkedin.com/in/honghui-xu-9a76691b0">LinkedIn</a> | <a href="https://orcid.org/0000-0002-9128-8454?lang=en">ORCID</a> | <a href="https://www.instagram.com/henryxu412">Instagram</a> | <a href="assets/Honghui_Xu_CV.pdf">CV (PDF)</a> | <a href="lab.html">IntelliTrust Lab</a>
       </div>
       <div class="mt-3 p-2 border rounded text-center" style="max-width: 260px;">
-        <a href="https://analytics.google.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark">
-          <div><i class="fa-solid fa-earth-americas fa-2x" aria-hidden="true"></i></div>
-          <div class="mt-1 fw-semibold">Global Visitors Report</div>
-          <div class="small text-muted">Open Google Analytics</div>
-        </a>
+        <div class="mt-1 fw-semibold">Global Visitors Map</div>
+        <div id="clustrmaps-widget" class="mt-2">
+          <script
+            type="text/javascript"
+            id="clustrmaps"
+            src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=260&t=tt&d=REPLACE_WITH_YOUR_CLUSTRMAPS_TOKEN&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353">
+          </script>
+        </div>
+        <div class="small text-muted mt-1">Powered by ClustrMaps</div>
       </div>
 
       </div>
